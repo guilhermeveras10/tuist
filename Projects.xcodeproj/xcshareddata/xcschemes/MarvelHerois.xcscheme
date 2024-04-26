@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "67830FD15FC3CCE08D8CE048"
-               BuildableName = "LibsUI.framework"
-               BlueprintName = "LibsUI"
-               ReferencedContainer = "container:Libs.xcodeproj">
+               BlueprintIdentifier = "D4F12A9488ECDBA18DD599CB"
+               BuildableName = "MarvelHerois.app"
+               BlueprintName = "MarvelHerois"
+               ReferencedContainer = "container:Projects.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -41,37 +41,39 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "67830FD15FC3CCE08D8CE048"
-            BuildableName = "LibsUI.framework"
-            BlueprintName = "LibsUI"
-            ReferencedContainer = "container:Libs.xcodeproj">
+            BlueprintIdentifier = "D4F12A9488ECDBA18DD599CB"
+            BuildableName = "MarvelHerois.app"
+            BlueprintName = "MarvelHerois"
+            ReferencedContainer = "container:Projects.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "67830FD15FC3CCE08D8CE048"
-            BuildableName = "LibsUI.framework"
-            BlueprintName = "LibsUI"
-            ReferencedContainer = "container:Libs.xcodeproj">
+            BlueprintIdentifier = "D4F12A9488ECDBA18DD599CB"
+            BuildableName = "MarvelHerois.app"
+            BlueprintName = "MarvelHerois"
+            ReferencedContainer = "container:Projects.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

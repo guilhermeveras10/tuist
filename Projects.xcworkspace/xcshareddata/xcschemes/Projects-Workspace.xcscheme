@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4184D25B6E1BE9A02ADD0775"
-               BuildableName = "Libs.app"
-               BlueprintName = "Libs"
-               ReferencedContainer = "container:Libs.xcodeproj">
+               BlueprintIdentifier = "D4F12A9488ECDBA18DD599CB"
+               BuildableName = "MarvelHerois.app"
+               BlueprintName = "MarvelHerois"
+               ReferencedContainer = "container:Projects.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9BA42C8B4B6E77C42103EBE2"
-               BuildableName = "LibsTests.xctest"
-               BlueprintName = "LibsTests"
-               ReferencedContainer = "container:Libs.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E0766E16C35E23BD7AFB4BA7"
-               BuildableName = "LibsUITests.xctest"
-               BlueprintName = "LibsUITests"
-               ReferencedContainer = "container:Libs.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -64,15 +44,15 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4184D25B6E1BE9A02ADD0775"
-            BuildableName = "Libs.app"
-            BlueprintName = "Libs"
-            ReferencedContainer = "container:Libs.xcodeproj">
+            BlueprintIdentifier = "D4F12A9488ECDBA18DD599CB"
+            BuildableName = "MarvelHerois.app"
+            BlueprintName = "MarvelHerois"
+            ReferencedContainer = "container:Projects.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -81,10 +61,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4184D25B6E1BE9A02ADD0775"
-            BuildableName = "Libs.app"
-            BlueprintName = "Libs"
-            ReferencedContainer = "container:Libs.xcodeproj">
+            BlueprintIdentifier = "D4F12A9488ECDBA18DD599CB"
+            BuildableName = "MarvelHerois.app"
+            BlueprintName = "MarvelHerois"
+            ReferencedContainer = "container:Projects.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
@@ -92,7 +72,7 @@
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

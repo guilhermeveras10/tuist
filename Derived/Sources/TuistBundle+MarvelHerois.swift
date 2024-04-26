@@ -8,14 +8,14 @@ import Foundation
 private class BundleFinder {}
 
 extension Foundation.Bundle {
-/// Since Libs is a application, the bundle for classes within this module can be used directly.
+/// Since MarvelHerois is a application, the bundle for classes within this module can be used directly.
 static let module = Bundle(for: BundleFinder.self)
 }
 
 // MARK: - Objective-C Bundle Accessor
 
 @objc
-public class LibsResources: NSObject {
+public class MarvelHeroisResources: NSObject {
 @objc public class var bundle: Bundle {
     return .module
 }
