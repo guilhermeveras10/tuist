@@ -1,6 +1,6 @@
 import UIKit
-import LibsKit
-import LibsUI
+import MarvelHerosKit
+
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,8 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = viewController
         window?.makeKeyAndVisible()
         
-        LibsKit.hello()
-        LibsUI.hello()
+//        LibsKit.hello()
+//        LibsUI.hello()
 
         return true
     }

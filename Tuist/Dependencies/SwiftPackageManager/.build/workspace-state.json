@@ -1,0 +1,27 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "kingfisher",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/onevcat/Kingfisher.git",
+          "name" : "Kingfisher"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "af4be924ad984cf4d16f4ae4df424e79a443d435",
+            "version" : "7.6.2"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "Kingfisher"
+      }
+    ]
+  },
+  "version" : 6
+}

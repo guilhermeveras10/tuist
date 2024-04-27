@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00B429F7C0D343EA5B795A47 /* TuistBundle+MarvelHerois2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E3211DF691B5C7367387D1 /* TuistBundle+MarvelHerois2.swift */; };
+		3CA6C4EC722DC85E62A7EAE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2C1E67A35BFEA9ABD901D2 /* LaunchScreen.storyboard */; };
 		84BFFC54F6950F61AC7B9AF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E2F3CCA866CF1DA62B7F4C /* AppDelegate.swift */; };
+		9E10950A2FB0AEA95B6F2A4F /* AppDelegate.swift in Resources */ = {isa = PBXBuildFile; fileRef = 72E2F3CCA866CF1DA62B7F4C /* AppDelegate.swift */; };
+		A06E31F283C83A5C8ED7E5D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E2F3CCA866CF1DA62B7F4C /* AppDelegate.swift */; };
 		A9E0159BDDCAB0A2C6A41B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2C1E67A35BFEA9ABD901D2 /* LaunchScreen.storyboard */; };
 		B21768CFFA522299A63B7E3E /* AppDelegate.swift in Resources */ = {isa = PBXBuildFile; fileRef = 72E2F3CCA866CF1DA62B7F4C /* AppDelegate.swift */; };
+		B7CE8791ED7E5B03F75E0561 /* AppTests.swift in Resources */ = {isa = PBXBuildFile; fileRef = 74AAF889415D42F074C128B5 /* AppTests.swift */; };
 		C750A6C361FA7D1A93849F0D /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AAF889415D42F074C128B5 /* AppTests.swift */; };
 		E086A8C1626AB0086204E6B4 /* TuistBundle+MarvelHerois.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59212170B2947430524979B /* TuistBundle+MarvelHerois.swift */; };
 		EF439CF0CB8F5A9D03B5AFAD /* AppTests.swift in Resources */ = {isa = PBXBuildFile; fileRef = 74AAF889415D42F074C128B5 /* AppTests.swift */; };
+		FF367E5E6FE6E933D9C5A7FA /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AAF889415D42F074C128B5 /* AppTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		66EA24DB1380E2E639C869D6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD46B8186A9C064876D44F9 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -31,9 +47,12 @@
 /* Begin PBXFileReference section */
 		1493279916B1B86E2F40BEB9 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		16F28A0F915BA8FAE2ACF371 /* MarvelHerois-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MarvelHerois-Info.plist"; sourceTree = "<group>"; };
+		46E3211DF691B5C7367387D1 /* TuistBundle+MarvelHerois2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+MarvelHerois2.swift"; sourceTree = "<group>"; };
+		65A72A5EAE7B2427795CB14A /* MarvelHerois2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MarvelHerois2-Info.plist"; sourceTree = "<group>"; };
 		72E2F3CCA866CF1DA62B7F4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74AAF889415D42F074C128B5 /* AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
 		8F80B8964AAC56F5158005A1 /* MarvelHerois.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelHerois.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCB5F6E3BE824337043E6FE /* MarvelHerois2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelHerois2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA2C1E67A35BFEA9ABD901D2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F59212170B2947430524979B /* TuistBundle+MarvelHerois.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+MarvelHerois.swift"; sourceTree = "<group>"; };
 		FA04B4E212C021CE054FD88D /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
@@ -41,6 +60,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		0B8ABD14BCBDD3F34D4AE46E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2570D289862B9E7FD50F589 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				16F28A0F915BA8FAE2ACF371 /* MarvelHerois-Info.plist */,
+				65A72A5EAE7B2427795CB14A /* MarvelHerois2-Info.plist */,
 			);
 			path = InfoPlists;
 			sourceTree = "<group>";
@@ -87,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				F59212170B2947430524979B /* TuistBundle+MarvelHerois.swift */,
+				46E3211DF691B5C7367387D1 /* TuistBundle+MarvelHerois2.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -103,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				8F80B8964AAC56F5158005A1 /* MarvelHerois.app */,
+				ADCB5F6E3BE824337043E6FE /* MarvelHerois2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +192,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9AFE5CD18B520C3C5FF748AA /* MarvelHerois2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505BF7664E0077E1BEE54EEA /* Build configuration list for PBXNativeTarget "MarvelHerois2" */;
+			buildPhases = (
+				6A1D1D93F50BF8E402B4886F /* Sources */,
+				757B1282F292D0839F1FC58E /* Resources */,
+				FAD46B8186A9C064876D44F9 /* Embed Frameworks */,
+				C2570D289862B9E7FD50F589 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarvelHerois2;
+			productName = MarvelHerois2;
+			productReference = ADCB5F6E3BE824337043E6FE /* MarvelHerois2.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D4F12A9488ECDBA18DD599CB /* MarvelHerois */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9154DAC375CC4BFC74A89724 /* Build configuration list for PBXNativeTarget "MarvelHerois" */;
@@ -205,11 +252,22 @@
 			projectRoot = "";
 			targets = (
 				D4F12A9488ECDBA18DD599CB /* MarvelHerois */,
+				9AFE5CD18B520C3C5FF748AA /* MarvelHerois2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		757B1282F292D0839F1FC58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA6C4EC722DC85E62A7EAE1 /* LaunchScreen.storyboard in Resources */,
+				9E10950A2FB0AEA95B6F2A4F /* AppDelegate.swift in Resources */,
+				B7CE8791ED7E5B03F75E0561 /* AppTests.swift in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B96633A3A749F2976B7E1241 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -223,6 +281,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6A1D1D93F50BF8E402B4886F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B429F7C0D343EA5B795A47 /* TuistBundle+MarvelHerois2.swift in Sources */,
+				A06E31F283C83A5C8ED7E5D5 /* AppDelegate.swift in Sources */,
+				FF367E5E6FE6E933D9C5A7FA /* AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6FAE0BA550B0791F81BBE7F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -261,6 +329,32 @@
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
+		};
+		155863379045E6CD70E39648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/MarvelHerois2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.Project;
+				PRODUCT_NAME = MarvelHerois2;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
 		};
 		3BEB3CB773ADFD6B8D3A22BD /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -382,6 +476,32 @@
 			};
 			name = Debug;
 		};
+		DEB59BB40051F64CB046AB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/MarvelHerois2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.Project;
+				PRODUCT_NAME = MarvelHerois2;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		F1FD3FB5ED6A9E8CDB1AA730 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -411,6 +531,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		505BF7664E0077E1BEE54EEA /* Build configuration list for PBXNativeTarget "MarvelHerois2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				155863379045E6CD70E39648 /* Debug */,
+				DEB59BB40051F64CB046AB3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		9154DAC375CC4BFC74A89724 /* Build configuration list for PBXNativeTarget "MarvelHerois" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

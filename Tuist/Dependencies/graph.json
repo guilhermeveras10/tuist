@@ -1,0 +1,495 @@
+{
+  "externalDependencies" : {
+    "Kingfisher" : [
+      {
+        "project" : {
+          "target" : "Kingfisher",
+          "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher"
+        }
+      }
+    ]
+  },
+  "externalProjects" : [
+    "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher",
+    {
+      "settings" : {
+        "configurations" : [
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "variant" : "release",
+            "name" : "Release"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "baseDebug" : {
+
+        },
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
+
+            ]
+          }
+        },
+        "base" : {
+
+        }
+      },
+      "name" : "Kingfisher",
+      "targets" : [
+        {
+          "mergeable" : false,
+          "buildRules" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "environmentVariables" : {
+
+          },
+          "product" : "staticFramework",
+          "destinations" : [
+            "iPhone",
+            "iPad",
+            "appleVisionWithiPadDesign",
+            "macWithiPadDesign"
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          },
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "settings" : {
+            "baseDebug" : {
+
+            },
+            "base" : {
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "string" : {
+                  "_0" : "$(inherited) SWIFT_PACKAGE"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "playgrounds" : [
+
+          ],
+          "name" : "Kingfisher",
+          "bundleId" : "Kingfisher",
+          "productName" : "Kingfisher",
+          "additionalFiles" : [
+
+          ],
+          "rawScriptBuildPhases" : [
+
+          ],
+          "dependencies" : [
+
+          ],
+          "deploymentTargets" : {
+            "iOS" : "12.0"
+          },
+          "resources" : [
+
+          ],
+          "copyFiles" : [
+
+          ],
+          "coreDataModels" : [
+
+          ],
+          "prune" : false,
+          "mergedBinaryType" : {
+            "disabled" : {
+
+            }
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/ImagePrefetcher.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Extensions\/NSTextAttachment+Kingfisher.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/SwiftUI\/KFImage.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Cache\/ImageCache.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Extensions\/TVMonogramView+Kingfisher.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/SwiftUI\/ImageContext.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Cache\/DiskStorage.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/ImageSource\/ImageDataProvider.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/ImageDownloaderDelegate.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/Placeholder.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/KF.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/String+MD5.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Cache\/FormatIndicatedCacheSerializer.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/Kingfisher.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/ImageProgressive.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/Runtime.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/KingfisherManager.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/RequestModifier.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/Image.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Cache\/Storage.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/ImageModifier.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/SizeExtensions.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/ExtensionHelpers.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/ImageDataProcessor.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Extensions\/WKInterfaceImage+Kingfisher.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/SessionDelegate.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Views\/Indicator.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/GIFAnimatedImage.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/SwiftUI\/KFImageOptions.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/KingfisherOptionsInfo.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/AuthenticationChallengeResponsable.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Cache\/MemoryStorage.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/SwiftUI\/KFImageProtocol.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Extensions\/CPListItem+Kingfisher.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Cache\/CacheSerializer.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/ImageSource\/Source.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/Delegate.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/KFOptionsSetter.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Views\/AnimatedImageView.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/ImageDrawing.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/Box.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Extensions\/UIButton+Kingfisher.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/ImageFormat.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/CallbackQueue.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/GraphicsContext.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/SessionDataTask.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/ImageSource\/Resource.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/ImageTransition.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Extensions\/NSButton+Kingfisher.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Utility\/Result.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/SwiftUI\/ImageBinder.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/Filter.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/ImageDownloader.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/ImageSource\/AVAssetImageDataProvider.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/General\/KingfisherError.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/SwiftUI\/KFImageRenderer.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Extensions\/ImageView+Kingfisher.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/RedirectHandler.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/SwiftUI\/KFAnimatedImage.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Networking\/RetryStrategy.swift"
+            },
+            {
+              "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Sources\/Image\/ImageProcessor.swift"
+            }
+          ],
+          "scripts" : [
+
+          ]
+        }
+      ],
+      "schemes" : [
+
+      ],
+      "xcodeProjPath" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher\/Kingfisher.xcodeproj",
+      "sourceRootPath" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher",
+      "isExternal" : true,
+      "resourceSynthesizers" : [
+        {
+          "parserOptions" : {
+
+          },
+          "extensions" : [
+            "strings",
+            "stringsdict"
+          ],
+          "parser" : "strings",
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Strings"
+            }
+          }
+        },
+        {
+          "extensions" : [
+            "xcassets"
+          ],
+          "parserOptions" : {
+
+          },
+          "parser" : "assets",
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Assets"
+            }
+          }
+        },
+        {
+          "parser" : "plists",
+          "parserOptions" : {
+
+          },
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Plists"
+            }
+          },
+          "extensions" : [
+            "plist"
+          ]
+        },
+        {
+          "extensions" : [
+            "ttf",
+            "otf",
+            "ttc"
+          ],
+          "parserOptions" : {
+
+          },
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Fonts"
+            }
+          },
+          "parser" : "fonts"
+        }
+      ],
+      "options" : {
+        "disableBundleAccessors" : false,
+        "textSettings" : {
+
+        },
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        },
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "disableSynthesizedResourceAccessors" : true
+      },
+      "additionalFiles" : [
+
+      ],
+      "packages" : [
+
+      ],
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "path" : "\/Users\/guilherme\/Desktop\/Projects\/tuist\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Kingfisher",
+      "lastUpgradeCheck" : "99.9.9"
+    }
+  ]
+}
